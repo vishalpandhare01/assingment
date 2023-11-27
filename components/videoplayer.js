@@ -18,7 +18,9 @@ export function VideoPlayer({ urlData }) {
         isLooping
         onPlaybackStatusUpdate={(status) => setStatus(() => status)}
         // useNativeControls
-        shouldPlay={true}
+        shouldPlay={false}
+        useNativeControls={true}
+        shouldCorrectPitch
       />
       <ButtonsComponent urlData={urlData} />
     </View>
