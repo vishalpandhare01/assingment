@@ -26,6 +26,7 @@ export function VideoPlayer({ urlData }) {
   );
 }
 
+
 const styles = StyleSheet.create({
   container: {
     flex: 1,

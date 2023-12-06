@@ -29,6 +29,7 @@ export default function MainNavbar() {
             padding: 8,
         },
     });
+    
     return (
         <View style={styles.navbar}>
             {/* <View>

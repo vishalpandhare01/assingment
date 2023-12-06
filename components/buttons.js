@@ -3,6 +3,7 @@ import { Entypo } from "@expo/vector-icons";
 import { AntDesign } from "@expo/vector-icons";
 import { FontAwesome } from "@expo/vector-icons";
 
+
 async function onclickShare({ id, link }) {
   console.log(id, link);
   try {

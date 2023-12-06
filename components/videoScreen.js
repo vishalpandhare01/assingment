@@ -2,6 +2,7 @@ import { FlatList, View } from "react-native";
 import { VideosUrl } from "../data/videos";
 import { VideoPlayer } from "./videoplayer";
 
+
 export default function VideoScreenComponent() {
   return (
     <View>
