@@ -8,7 +8,6 @@ let deviceHeight = Dimensions.get("window").height;
 
 export function VideoPlayer({ urlData }) {
   const [status, setStatus] = useState({});
-
   return (
     <View style={styles.container}>
       <Video
@@ -30,6 +29,7 @@ export function VideoPlayer({ urlData }) {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
+    marginTop:5
   },
   videoscreen: {
     width: deviceWidth,
